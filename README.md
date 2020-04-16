@@ -15,7 +15,7 @@ ConvertToEigenMatrix in main.cpp adapted from https://stackoverflow.com/a/405128
 line 121-131 in main.cpp (read vertex from stl file) adapted from TA Darren
 
 sepUpLights in planet.fs structure adapted from: https://www.shadertoy.com/view/XstSRX
-(Note that I am using sepUpLights' structure instead of copy paste, and it is for setting up the rotations and radius only, not involving any calculation)
+(Note that it is for setting up the rotations and radius only)
 
 The derivation of cone intersection formula adapted from http://lousodrome.net/blog/light/2017/01/03/intersection-of-a-ray-and-a-cone/
 
