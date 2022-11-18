@@ -1,0 +1,32 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 failed with the following output:
+Change Dir: C:/Users/39678/Desktop/Courses/csc418/projects/project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4e4cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.24.28314 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX11 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e4cd.dir\Debug\\" /Fd"cmTC_4e4cd.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++11 C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++11' [C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\cmTC_4e4cd.vcxproj]
+  cmTC_4e4cd.vcxproj -> C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\Debug\cmTC_4e4cd.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: C:/Users/39678/Desktop/Courses/csc418/projects/project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8478e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.24.28314 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8478e.dir\Debug\\" /Fd"cmTC_8478e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++0x C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\cmTC_8478e.vcxproj]
+  cmTC_8478e.vcxproj -> C:\Users\39678\Desktop\Courses\csc418\projects\project\CMakeFiles\CMakeTmp\Debug\cmTC_8478e.exe
+
+
+Source file was:
+int main() { return 0; }
